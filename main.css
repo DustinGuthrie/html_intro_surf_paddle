@@ -216,7 +216,13 @@ display: inline;
   width: 25%;
   height: 250px;
   vertical-align: bottom;
-  margin-left: -4px;
+  margin-left: -2px;
+  margin-right: -2px;
+  opacity: .5;
+}
+.col-4 img:hover{
+  opacity: 0;
+  cursor: pointer;
 }
 .col-4  li{
   display: inline;
@@ -232,6 +238,7 @@ display: inline;
   text-transform: uppercase;
   font-family: sans-serif;
   padding-top: 190px;
+  z-index: 1;
 
 
   /*vertical-align: bottom;*/
@@ -244,21 +251,43 @@ footer{
   background-color: #00004c;
   color: #ffffff;
   /*display: inline;*/
+  position: relative;
+  padding-right: 15%;
+  margin-left: -2px;
+  margin-right: 2px;
+
+
 }
 footer ul{
   display: inline;
-  float: right;
+  /*float: right;*/
   text-decoration: none;
+  margin-top: 35px;
+  padding-left: 0px;
+  font-size: 12px;
 }
 footer li{
   display: inline;
+  padding-right: 10px;
+  padding-left: 5px;
+  border-right: 2px solid #cccccc;
+  margin-top: 35px;
+  /*margin-right: 40px;*/
+  /*margin-right: 5%;*/
+  float: right;
+
+
 }
 footer p{
+  position: absolute;
   display: inline;
   padding-left: 5%;
-  margin-top: 0px;
+  margin-top: 35px;
+  font-size: 12px;
 }
 footer img{
   width: 80px;
-  padding-bottom: -2px;
+  padding-left: 7%;
+  margin-bottom: -4px;
+
 }
