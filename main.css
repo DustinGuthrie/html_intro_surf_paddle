@@ -213,9 +213,10 @@ display: inline;
 }
 .col-4 img{
   /*display: inline;*/
-  width: 24%;
+  width: 25%;
   height: 250px;
   vertical-align: bottom;
+  margin-left: -4px;
 }
 .col-4  li{
   display: inline;
@@ -224,16 +225,19 @@ display: inline;
   /*text-decoration: none;*/
   position: absolute;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 22px;
   width: 100%;
   height: 250px;
   color: #ffffff;
   text-transform: uppercase;
   font-family: sans-serif;
+  padding-top: 190px;
+
 
   /*vertical-align: bottom;*/
 }
 a:hover{
+  /*This does not seem to be working*/
   background-color: #005893;
 }
 footer{
@@ -251,7 +255,10 @@ footer li{
 }
 footer p{
   display: inline;
+  padding-left: 5%;
+  margin-top: 0px;
 }
 footer img{
   width: 80px;
+  padding-bottom: -2px;
 }
