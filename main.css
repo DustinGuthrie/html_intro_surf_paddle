@@ -1,0 +1,257 @@
+body{
+  margin: 2px;
+  padding: 2px;
+}
+header{
+  /*background-image: linear-gradient(rgba(0,0,255, 0.5),rgba(0, 0, 255, 0.6)), url("http://proof.nationalgeographic.com/files/2014/05/140522-nicklen-hawaii-waves-fea1-990x450.jpg");*/
+  background-image: linear-gradient( rgba(0, 88, 147, 0.7), rgba(0, 88, 147, 0.7) ), url("http://proof.nationalgeographic.com/files/2014/05/140522-nicklen-hawaii-waves-fea1-990x450.jpg");
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 400px;
+  margin-top: -50px;
+}
+nav{
+  /*margin-left: 265px;
+  margin-right: 265px;*/
+  padding-left: 20%;
+  padding-right: 20%;
+  position: relative;
+}
+nav ul{
+  /*padding:0;*/
+  padding-left: 0px;
+  padding-right: -10px;
+}
+h1 {
+  text-transform: uppercase;
+  color: white;
+  font-family:sans-serif;
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+  padding-top: 10%;
+}
+h6{
+  text-align: center;
+  font-family: serif;
+  margin-top: -8px;
+  font-size: 15px;
+  font-weight: lighter;
+
+}
+
+nav li{
+  text-transform: uppercase;
+  display: inline;
+}
+#logo img{
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin-top: -5px;
+  position: relative;
+}
+#biz{
+  text-align: left;
+  padding-right: 52%;
+  padding-left: 4px;
+  /*padding-left: 8%;*/
+  /*position: relative;*/
+}
+#about{
+  text-align: right;
+  font-weight: bold;
+}
+#search{
+  text-align: right;
+  /*float: right;*/
+  font-weight: bold;
+  padding-left: 1%;
+  /*padding-right: 20%;*/
+}
+#magnify img{
+ float: right;
+ height: 12px;
+ padding-top: 2px;
+ padding-left: 2px;
+ position: absolute;
+}
+.main {
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+.fantastic{
+  float: left;
+  /*background-color: red;*/
+  width: 66%;
+
+}
+.fantastic h1{
+  font-size: 60px;
+  color: #00004c;
+  font-family: arial;
+}
+.fantastic img{
+  width: 30px;
+}
+.fantastic li{
+  display: inline;
+}
+.fantastic #anne{
+  color: #005893;
+}
+.fantastic #date{
+  padding-left: 8px;
+  color: #cccccc;
+}
+.callout{
+  border-left: 2px solid #b2b2b2;
+  margin-left: 20px;
+  height: 50px;
+}
+.callout p{
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #005893;
+}
+.side{
+  /*background-color: yellow;*/
+  float: right;
+  width: 33%;
+  padding-top: 40px;
+  text-align: center;
+  vertical-align: top;
+
+}
+.side ul{
+  /*display: inline;*/
+  text-decoration: none;
+  padding-left: 20px;
+
+}
+.side ul > img{
+  width: 100px;
+  padding-top: 50px;
+}
+.side #anne{
+  color: #005893;
+  font-size: 20px;
+  text-align: center;
+
+}
+.side p{
+  color: #cccccc;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+#paddle{
+  width: 100%;
+}
+#p{
+  padding-left: 73%;
+  color: #cccccc;
+}
+#twit{
+  text-decoration: none;
+  display: inline;
+  color: #cccccc;
+  border-right: 2px solid #cccccc;
+  padding-right: 8px;
+
+}
+#face{
+  text-decoration: none;
+  display: inline;
+  color: #cccccc;
+  border-right: 2px solid #cccccc;
+  padding-left: 4px;
+  padding-right: 8px;
+}
+#insta{
+  text-decoration: none;
+  display: inline;
+  color: #cccccc;
+  padding-left: 4px;
+}
+h3{
+    color: #005893;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: left;
+}
+.share li{
+  padding-right: 15px:
+
+}
+.popular{
+  border-top: 2px solid #cccccc;
+  /*background-color: green;*/
+  clear: both;
+  width: 100%;
+  /*height: 50%;*/
+  margin: 0,auto;
+}
+.popular h1{
+  font-size: 60px;
+  color: #00004c;
+  font-family: arial;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.col-4{
+position: relative;
+display: inline;
+
+}
+.col-4 img{
+  /*display: inline;*/
+  width: 24%;
+  height: 250px;
+  vertical-align: bottom;
+}
+.col-4  li{
+  display: inline;
+  /*width: 24%;*/
+  /*text-align: center;*/
+  /*text-decoration: none;*/
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  width: 100%;
+  height: 250px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+
+  /*vertical-align: bottom;*/
+}
+a:hover{
+  background-color: #005893;
+}
+footer{
+  background-color: #00004c;
+  color: #ffffff;
+  /*display: inline;*/
+}
+footer ul{
+  display: inline;
+  float: right;
+  text-decoration: none;
+}
+footer li{
+  display: inline;
+}
+footer p{
+  display: inline;
+}
+footer img{
+  width: 80px;
+}
