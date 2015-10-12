@@ -396,19 +396,53 @@ footer img{
     font-size: 1.3em;
     /*border-left: 2px solid #b2b2b2;*/
   }
-  .side {
+  .share {
     float: left;
-    display: inline;
+    margin-left: -12%;
   }
-  .side ul{
+  .share li {
+    display: none;
+  }
+  .side {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
     display: inline-block;
-    clear: both;
+    align-items: center;
+  }
+  /*.side ul{
+    padding: 0px;
+  }*/
+  .side li{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding-right: 20%;
   }
   .side #ptwo, h3{
     display: none;
   }
-  .side img {
-    width: 100%;
+  #dolphin{
+    align-items: center;
+    /*width: 200px;
+    height: 130px;*/
+    width: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+  }
+  #anne {
+    padding-top: 5%;
+    /*margin-right: 5%;*/
+    font-size: 1em;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  #paddle {
+    width: 90%;
   }
   .col-4 img{
     width: 100%;
