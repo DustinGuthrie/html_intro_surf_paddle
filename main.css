@@ -311,6 +311,26 @@ footer img{
     padding-top: 5%;
     color: #e6e6e6;
   }
+  .fantastic h1{
+    font-size: 2em;
+  }
+}
+  .callout p{
+    font-size: 1em;
+}
+  .side h3{
+    font-size: 1em;
+}
+  .side p{
+    font-size: .3em;
+}
+  .popular h1{
+    font-size: 2em;
+}
+}
+.popular li{
+  width: 75%;
+  padding-left: 10%;
 }
 
 @media (max-width: 400px) {
