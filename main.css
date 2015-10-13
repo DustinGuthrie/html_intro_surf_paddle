@@ -126,7 +126,7 @@ nav li{
 .callout p{
   text-transform: uppercase;
   font-family: sans-serif;
-  font-size: 30px;
+  font-size: 1.4em;
   padding-left: 10px;
   padding-top: 10px;
   margin-top: 15px;
@@ -156,7 +156,9 @@ nav li{
   color: #005893;
   font-size: 20px;
   text-align: center;
-
+}
+#annedolphin{
+  text-align: center;
 }
 .side p{
   color: #cccccc;
@@ -317,9 +319,7 @@ footer img{
   }
   nav{
     align-items: center;
-    /*margin-left: 16%;
-    margin-right: 16%;*/
-  font-size: .8em;
+    font-size: .8em;
   }
   #biz {
     display: none;
@@ -328,9 +328,6 @@ footer img{
   #logo {
     align-items: center;
     display: inline-block;
-    /*float:right;*/
-    /*display: block;
-    /*position: relative;*/
     padding-left: 40%;
     padding-top: 15px;
     transform: scale(1.5);
@@ -339,9 +336,6 @@ footer img{
     /*margin:0;*/
     width: 170px;
     height: auto;
-    /*margin-left: 16%;*/
-    /*margin-right: 16%*/
-    /*margin: 5px, 0px, 0px, 0px;*/
     align-items: center;
   }
   nav li{
@@ -411,14 +405,15 @@ footer img{
     display: inline-block;
     align-items: center;
   }
-  /*.side ul{
+  .side ul{
     padding: 0px;
-  }*/
+  }
   .side li{
     display: inline-block;
     text-align: center;
     align-items: center;
     padding-right: 20%;
+    font-size: 1.3em;
   }
   .side #ptwo, h3{
     display: none;
@@ -429,26 +424,97 @@ footer img{
     height: 130px;*/
     width: 40%;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     padding-left: 15%;
+    padding-right: 15%;
   }
-  #anne {
-    padding-top: 5%;
-    /*margin-right: 5%;*/
-    font-size: 1em;
+  #annedolphin {
+    color: #005893;
+    padding-top: 2%;
+    padding-left: 0;
+    font-size: 1.5em;
     display: inline-block;
     text-align: center;
     align-items: center;
     text-transform: uppercase;
   }
+  #twit{
+    border-style: none;
+  }
+  #face{
+    border-style: none;
+  }
+  #insta{
+    padding: 0;
+  }
   #paddle {
-    width: 90%;
+    width: 92%;
+    padding-right:10%;
+  }
+  #p{
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 9%;
+    text-align: right;
+  }
+  .popular h1{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 0;
+    font-size: 1.8em;
+  }
+  .col-4{
+    width: 100%
   }
   .col-4 img{
-    width: 100%;
+    width: 90%;
     padding-bottom: 15px;
+    padding-left: 5%;
+    padding-right: 8%;
   }
-    /*footer {
-
-    }*/
+  .popular li{
+    width: 75%;
+    padding-left: 10%;
+  }
+  footer{
+    padding: 0;
+    /*background-color: #00004c;*/
+  }
+  .footer{
+    padding: 0;
+    margin:0;
+    width: 100%;
+    /*height: auto;*/
+    display: inline-block;
+    /*align-items: center;
+    text-align: center;*/
+    /*background-color: #00004c;*/
+  }
+  .footer ul{
+    padding: 0;
+    margin: 0;
+}
+  .footer li{
+    font-size: 1.5em;
+    display: inline block;
+    align-items: center;
+    /*text-align: center;*/
+    border: none;
+    margin: 0;
+    /*padding-left: 5%;*/
+    padding-right: 2%;
+  }
+.footer img{
+    align-items: center;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: -4%;
+}
+  .footer p{
+    display: inline-block;
+    /*align-items: center;*/
+    margin-top: 0;
+    position: relative;
+    padding-left: 18%;
+}
 }
