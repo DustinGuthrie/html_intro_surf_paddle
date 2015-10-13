@@ -1,25 +1,16 @@
 html{
   font-size: 1em;
 }
-body{
-  /*margin: 2em;
-  padding: 2em;*/
-
-}
 .top {
   background-image: linear-gradient( rgba(0, 88, 147, 0.7), rgba(0, 88, 147, 0.7) ), url("http://proof.nationalgeographic.com/files/2014/05/140522-nicklen-hawaii-waves-fea1-990x450.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  /*height: 400px;*/
-  /*margin-top: -50px;*/
   margin: 0;
   width: 100%;
   overflow: hidden;
   height: auto;
 }
 nav{
-  /*margin-left: 265px;
-  margin-right: 265px;*/
   width: 100%
   position: relative;
   margin-right: 20%;
@@ -55,17 +46,12 @@ nav li{
 }
 #biz{
   float: left;
-  /*text-align: left;*/
-  /*padding-right: 52%;*/
   padding-left: 4px;
-  /*padding-left: 8%;*/
-  /*position: relative;*/
 }
 #logo img{
   float: left;
   height: 30px;
   width: 30px;
-  /*margin-top: -5px;*/
   position: relative;
 }
 #about{
@@ -75,18 +61,15 @@ nav li{
 }
 #search{
   text-align: right;
-  /*float: right;*/
   font-weight: bold;
   padding-left: 1%;
   float: right;
-  /*padding-right: 20%;*/
 }
 #magnify img{
  float: right;
  height: 12px;
  padding-top: 2px;
  padding-left: 2px;
- /*position: absolute;*/
  float: right;
 }
 .main {
@@ -96,7 +79,6 @@ nav li{
 }
 .fantastic{
   float: left;
-  /*background-color: red;*/
   width: 66%;
 
 }
@@ -134,7 +116,6 @@ nav li{
   color: #005893;
 }
 .side{
-  /*background-color: yellow;*/
   float: right;
   width: 33%;
   padding-top: 40px;
@@ -143,7 +124,6 @@ nav li{
 
 }
 .side ul{
-  /*display: inline;*/
   text-decoration: none;
   padding-left: 20px;
 
@@ -207,10 +187,8 @@ h3{
 }
 .popular{
   border-top: 2px solid #cccccc;
-  /*background-color: green;*/
   clear: both;
   width: 100%;
-  /*height: 50%;*/
   margin: 0,auto;
 }
 .popular h1{
@@ -226,7 +204,6 @@ display: inline;
 
 }
 .col-4 img{
-  /*display: inline;*/
   width: 25%;
   height: 250px;
   vertical-align: bottom;
@@ -240,9 +217,6 @@ display: inline;
 }
 .col-4  li{
   display: inline;
-  /*width: 24%;*/
-  /*text-align: center;*/
-  /*text-decoration: none;*/
   position: absolute;
   font-weight: bold;
   font-size: 22px;
@@ -253,18 +227,13 @@ display: inline;
   font-family: sans-serif;
   padding-top: 190px;
   z-index: 1;
-
-
-  /*vertical-align: bottom;*/
 }
 a:hover{
-  /*This does not seem to be working*/
   background-color: #005893;
 }
 footer{
   background-color: #00004c;
   color: #ffffff;
-  /*display: inline;*/
   position: relative;
   padding-right: 15%;
   margin-left: -2px;
@@ -274,7 +243,6 @@ footer{
 }
 footer ul{
   display: inline;
-  /*float: right;*/
   text-decoration: none;
   margin-top: 35px;
   padding-left: 0px;
@@ -286,11 +254,7 @@ footer li{
   padding-left: 5px;
   border-right: 2px solid #cccccc;
   margin-top: 35px;
-  /*margin-right: 40px;*/
-  /*margin-right: 5%;*/
   float: right;
-
-
 }
 footer p{
   position: absolute;
@@ -353,7 +317,6 @@ footer img{
     transform: scale(1.5);
   }
   nav ul{
-    /*margin:0;*/
     width: 170px;
     height: auto;
     align-items: center;
@@ -364,12 +327,10 @@ footer img{
   }
   header h1{
     font-size: 1.7em;
-    /*padding-top: 2%;*/
     margin-top: -20px;
     margin-bottom: 4px;
   }
   header h6{
-    /*margin top: -5px*/
     margin-top: 4px;
   }
   .main{
@@ -408,7 +369,6 @@ footer img{
   }
   .callout p{
     font-size: 1.3em;
-    /*border-left: 2px solid #b2b2b2;*/
   }
   .share {
     float: left;
@@ -440,8 +400,6 @@ footer img{
   }
   #dolphin{
     align-items: center;
-    /*width: 200px;
-    height: 130px;*/
     width: 40%;
     padding-top: 5%;
     padding-bottom: 1%;
@@ -498,17 +456,12 @@ footer img{
   }
   footer{
     padding: 0;
-    /*background-color: #00004c;*/
   }
   .footer{
     padding: 0;
     margin:0;
     width: 100%;
-    /*height: auto;*/
     display: inline-block;
-    /*align-items: center;
-    text-align: center;*/
-    /*background-color: #00004c;*/
   }
   .footer ul{
     padding: 0;
@@ -518,10 +471,8 @@ footer img{
     font-size: 1.5em;
     display: inline block;
     align-items: center;
-    /*text-align: center;*/
     border: none;
     margin: 0;
-    /*padding-left: 5%;*/
     padding-right: 2%;
   }
 .footer img{
@@ -532,7 +483,6 @@ footer img{
 }
   .footer p{
     display: inline-block;
-    /*align-items: center;*/
     margin-top: 0;
     position: relative;
     padding-left: 18%;
